@@ -1,14 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import Navbar from './Navbar';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
 
-const Backroad =()=>{
-   return ( 
-    <React.Fragment>
-    <Navbar/>
-    </React.Fragment>
-   )
-}
 
-const root= ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Backroad></Backroad>)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <App />
+);
