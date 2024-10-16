@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 import React from 'react'
 
 const Tours = () => {
   return (
     <div>
       <section className="section" id="tours">
+=======
+const Tours = () =>{
+    return(
+        <section className="section" id="tours">
+>>>>>>> refs/remotes/origin/main
       <div className="section-title">
         <h2>featured <span>tours</span></h2>
       </div>
@@ -100,8 +106,14 @@ const Tours = () => {
         </article>
       </div>
     </section>
+<<<<<<< HEAD
     </div>
   )
 }
 
 export default Tours
+=======
+    )
+}
+export default Tours;
+>>>>>>> refs/remotes/origin/main
