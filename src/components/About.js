@@ -1,19 +1,15 @@
-
-import aboutus from "../images/about.jpeg"
+import aboutus from "../images/about.jpeg";
+import Title from "./Title";
 const About = () => {
-    return(
-        <section className="section" id="about">
+  return (
+    <section className="section" id="about">
       <div className="section-title">
-        <h2>about <span>us</span></h2>
+        <Title title="about" subTitle="us"></Title>
       </div>
 
       <div className="section-center about-center">
         <div className="about-img">
-          <img
-            src={aboutus}
-            className="about-photo"
-            alt="awesome beach"
-          />
+          <img src={aboutus} className="about-photo" alt="awesome beach" />
         </div>
         <article className="about-info">
           <h3>explore the difference</h3>
@@ -27,10 +23,12 @@ const About = () => {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href="#" className="btn">read more</a>
+          <a href="#top" className="btn">
+            read more
+          </a>
         </article>
       </div>
     </section>
-    )
-}
+  );
+};
 export default About;
